@@ -22,7 +22,7 @@ public class SwitchScene12 : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             SceneManager.LoadScene("Scene2", LoadSceneMode.Single);
         }
